@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul id="lista1">
+                <li><a href="indexPgPrincipal.html">Página Principal</a></li><br>
+                <li><a href="indexPgSobre.html">Sobre a clínica</a></li><br>
+                <li><a href="indexPgAtendimento.html">Horário de Atendimento</a></li><br>
+                <li><a href="indexPgContato.html">Contato</a></li><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img class="imgHeader" title="Logotipo" alt="logotipo do Centro Médico Vitalis"
+                    src="headerContato.png"/>
+            </div>
+
+            <div class="content-PGcontato">
+                <div class="info">
+                    <h1>Contato</h1>
+                    <p class="paragrafo">Entre em contato conosco para agendar sua consulta ou esclarecer qualquer dúvida. Nossa equipe
+                        está
+                        sempre pronta para atendê-lo com atenção e eficiência. Utilize nossos canais de comunicação ou
+                        venha
+                        nos visitar pessoalmente. Sua saúde está em boas mãos!<br>
+                </div>
+                <div class="form">
+                    <p class="paragrafo">Formulário de contato com:</p><br>
+                <form autocomplete="on" onsubmit="alert('Formulário Enviado')" target="_blank" method="post"
+                    action="indexPgContato.html">
+                    <label>Nome:</label><input  type="text" name="nome" /><br>
+                    <label>E-mail:</label><input type="email" name="email" /><br>
+                    <label>Assunto:</label><input type="text" name="assunto" /><br>
+                    <label>Mensagem:</label><textarea class="caixa-de-mensa" name="mensagem" rows="3" cols="60"></textarea><br>
+                    <button type="submit">Enviar</button>
+                </form>
+                </div>
+                <div class="map">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.1215151946394!2d-46.717837589973506!3d-23.59997457868478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56dc138906d5%3A0xfa2f75da82a1dd3c!2sHospital%20Israelita%20Albert%20Einstein!5e0!3m2!1spt-PT!2sbr!4v1742780486312!5m2!1spt-PT!2sbr"
+                    width="500" height= "250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                    <p class="contato-email">
+                        📞 Telefone: (11) 98765-4321<br>
+                    </p>
+                    <p class="contato-email">
+                        📧 E-mail: contato@vitalisclinic.com.br</p>
+                    </p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <p><i>Copyright © 2025 Todos os direitos reservados ao Centro Médico Vitalis</i></p>
+                <p><i>Desenvolvido por Kauan Berti DIO.me 2025</i></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

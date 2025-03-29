@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Tags HTML</title>
+</head>
+
+<body>
+    <header>
+        <h1>Guia de Tags HTML</h1>
+        <hr />
+        <h2 id="home">Índice</h2>
+        <ul>
+            <li><a href="#html">O que é um HTML</a></li>
+            <li><a href="#oqTags">O que são Tags</a></li>
+            <li><a href="#tagsTitulo">Tag de Títulos e Subtítulo &lt;h1&gt; até &lt;h6&gt;</a></li>
+            <li><a href="#tagParag">Tag de Parágrafo &lt;p&gt;</a></li>
+            <li><a href="#mark">Tag para Destacar Texto &lt;mark&gt;</a></li>
+            <li><a href="#small">Tag de Texto Pequeno &lt;small&gt;</a></li>
+            <li><a href="#i">Tag de Texto em Itálico &lt;i&gt;</a></li>
+            <li><a href="#u">Tag de Texto Sublinhado &lt;u&gt;</a></li>
+            <li><a href="#strong">Tag de Texto em Negrito &lt;strong&gt;</a></li>
+            <li><a href="#ol">Tag de Lista Ordenada &lt;ol&gt;</a></li>
+            <li><a href="#ul">Tag de Lista Não Ordenada &lt;ul&gt;</a></li>
+            <li><a href="#li">Tag de Item de Lista &lt;li&gt;</a></li>
+            <li><a href="#a">Tag de Link (Âncora) &lt;a&gt;</a></li>
+            <li><a href="#hr">Tag de Texto Pequeno &lt;hr&gt;</a></li>
+            <li><a href="#sub">Tag de Texto Subscrito &lt;sub&gt;</a></li>
+            <li><a href="#sup">Tag de Texto Pequeno &lt;sup&gt;</a></li>
+            <li><a href="#blockquote">Tag Citação em Bloco &lt;blockquote&gt;</a></li>
+            <li><a href="#font">Tag de Estilização de Texto (Obsoleta) &lt;font&gt;</a></li>
+            <li><a href="#del">Tag de Texto Deletado (Riscado) &lt;del&gt;</a></li>
+            <li><a href="#abbr">Tag de Abreviação &lt;abbr&gt;</a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h2 id="html">O que é um HTML</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>HTML (HyperText Markup Language) é a linguagem padrão utilizada para criar páginas na web. Ele funciona como a estrutura básica de um site, 
+                <br>organizando e apresentando o conteúdo por meio de elementos chamados "tags". O termo "HyperText" refere-se à capacidade do HTML de conectar 
+                <br>páginas através de links, permitindo a navegação na internet. Já "Markup Language" significa que ele é baseado em marcações, ou seja, usa tags para 
+                <br>definir a estrutura e a apresentação do conteúdo.<br>
+                Um documento HTML é interpretado pelos navegadores, que exibem o conteúdo de acordo com a hierarquia definida pelo código, podendo incluir 
+                <br>textos, imagens, vídeos, links, tabelas e outros elementos essenciais para a construção de páginas web.</p>
+        </section>
+        <section>
+            <h2 id="oqTags">O que são Tags</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>As tags são os elementos fundamentais do HTML e servem para estruturar e organizar o conteúdo de uma página web. Elas são representadas por 
+                <br>palavras-chave entre colchetes angulares (&lt; &gt;) e geralmente aparecem em pares, contendo uma tag de abertura(&lt;nomeDaTag&gt;) e uma de fechamento(&lt;/nomeDaTag&gt;).</p>
+        </section>
+        <section>
+            <h2 id="tagsTitulo">Tag de Títulos e Subtítulo &lt;h1&gt; até &lt;h6&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>Usadas para definir títulos e subtítulos, indo do mais importante (&lt;h1&gt;) ao menos importante
+                (&lt;h6&gt;).</p>
+
+
+            <pre>
+            <h1>Título Principal</h1><h2>Subtítulo</h2><h3>Seção menor</h3><h4>Detalhamento</h4><h5>Informação complementar</h5><h6>Nota de rodapé ou menor relevância</h6>
+    
+            -------------------------------------------------------
+            &lt;h1&gt;Título Principal&lt;/h1&gt;
+            &lt;h2&gt;Subtítulo&lt;/h2&gt;
+            &lt;h3&gt;Seção menor&lt;/h3&gt;
+            &lt;h4&gt;Detalhamento&lt;/h4&gt;
+            &lt;h5&gt;Informação complementar&lt;/h5&gt;
+            &lt;h6&gt;Nota de rodapé ou menor relevância&lt;/h6&gt;
+            -------------------------------------------------------
+
+            </pre>
+        </section>
+        <section>
+            <h2 id="tagParag">Tag de Parágrafo &lt;p&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;p&gt; é usada para definir parágrafos em um documento HTML. Ela ajuda a organizar o texto de
+                forma estruturada, separando blocos de conteúdo.<br>
+                Os navegadores aplicam automaticamente um espaçamento antes e depois de cada parágrafo, tornando o texto
+                mais legível. Os parágrafos são essenciais<br>
+                para criar textos bem organizados e fáceis de ler, contribuindo para uma melhor experiência do usuário.
+            <pre>
+
+            <p>Este é um exemplo de um parágrafo em HTML. Ele contém um bloco de texto organizado e formatado automaticamente pelo navegador.</p>
+            -------------------------------------------------------------------------------------------------------------------------------------------------
+            &lt;p&gt;Este é um exemplo de um parágrafo em HTML. Ele contém um bloco de texto organizado e formatado automaticamente pelo navegador.&lt;/p&gt;
+            -------------------------------------------------------------------------------------------------------------------------------------------------
+
+            </pre>
+        </section>
+        <section>
+            <h2 id="mark">Tag para Destacar Texto &lt;mark&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;mark&gt; é usada para destacar partes específicas do texto, geralmente aplicando um fundo
+                amarelo por padrão. Essa marcação é útil para enfatizar <br>palavras-chave, termos importantes ou trechos relevantes dentro de um texto.
+                de identificar visualmente.</p>
+            <pre>
+            <p>O HTML é a linguagem base para a criação de páginas web. A tag <mark>HTML</mark> é essencial para o desenvolvimento de qualquer site.</p>
+            -------------------------------------------------------------------------------------------------------------------------------------------------
+            &lt;p&gt;O HTML é a linguagem base para a criação de páginas web. A tag &lt;mark&gt;HTML&lt;/mark&gt; é essencial para o desenvolvimento de qualquer site.&lt;/p&gt;
+            -------------------------------------------------------------------------------------------------------------------------------------------------
+            </pre>
+        </section>
+        <section>
+            <h2 id="small">Tag de Texto Pequeno &lt;small&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;small&gt; é usada para reduzir o tamanho do texto em relação ao restante do conteúdo da página. Tradicionalmente, essa tag era utilizada para notas de 
+                rodapé, <br>avisos legais e outras informações secundárias.</p>
+            <pre>
+                <p><small>Este texto está menor</small></p>
+                --------------------------------------------
+                &lt;p&gt;&lt;small&gt;Este texto está menor&lt;/small&gt;&lt;/p&gt;
+                --------------------------------------------
+            </pre>
+        </section>
+        <section>
+            <h2 id="i">Tag de Texto em Itálico &lt;i&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;i&gt; é usada para exibir o texto em itálico, geralmente para destacar palavras estrangeiras, pensamentos, títulos de obras ou expressões técnicas dentro de um parágrafo.</p>
+            <pre>
+                <p>Ela pensou: <i>Será que isso realmente vai funcionar?</i></p>
+                ----------------------------------------------------------------
+                &lt;p&gt;Ela pensou: &lt;i&gt;Será que isso realmente vai funcionar?&lt;/i&gt;&lt;/p&gt;
+                ----------------------------------------------------------------
+        </section>
+        <section>
+            <h2 id="u">Tag de Texto Sublinhado &lt;u&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;u&gt; é usada para sublinhar textos, destacando palavras ou frases dentro de um conteúdo. Antigamente, essa tag era amplamente utilizada para enfatizar palavras, mas 
+                <br>com o avanço do CSS, seu uso se tornou menos comum, sendo recomendada apenas em casos específicos, como indicar erros ortográficos ou destacar termos importantes.</p>
+            <pre>
+                <p>O professor destacou a palavra <u>importante</u> na lousa.</p>
+                -------------------------------------------------------------------
+                &lt;p&gt;O professor destacou a palavra &lt;u&gt;importante &lt;/u&gt; na lousa.&lt;/p&gt;
+                -------------------------------------------------------------------
+            </pre>
+        </section>
+        <section>
+            <h2 id="strong">Tag de Texto em Negrito &lt;strong&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;strong&gt; é usada para destacar uma parte do texto em negrito, indicando que aquele trecho possui importância semântica dentro do conteúdo. 
+                <br>Diferente da tag &lt;b&gt;, que apenas altera a aparência do texto para negrito sem significado adicional, &lt;strong&gt; é interpretada pelos navegadores e 
+                <br>mecanismos de busca como uma ênfase relevante.</p>
+            <pre>
+                <p>É <strong>fundamental</strong> fazer um backup dos seus arquivos regularmente.</p>
+                ------------------------------------------------------------------------------------
+                &lt;p&gt;É &lt;strong&gt;fundamental&lt;strong&gt; fazer um backup dos seus arquivos regularmente.&lt;/p&gt;
+                ------------------------------------------------------------------------------------
+            </pre>
+        </section>
+        <section>
+            <h2 id="ol">Tag de Lista Ordenada &lt;ol&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;ol&gt; é usada para criar listas ordenadas, onde os itens são apresentados em uma sequência numérica ou alfabética. Cada item da lista é definido 
+                <br>com a tag &lt;li&gt;, e a numeração padrão segue uma ordem crescente (1, 2, 3...), mas pode ser personalizada com CSS ou pelo atributo type.</p>
+            <pre>
+                <p>Passos para fazer um bolo:</p>
+                <ol>
+                    <li>Preaqueça o forno a 180°C.</li>
+                    <li>Misture os ingredientes secos em uma tigela.</li>
+                    <li>Adicione os ovos e o leite à mistura.</li>
+                    <li>Bata até obter uma massa homogênea.</li>
+                    <li>Asse por 40 minutos.</li>
+                </ol>
+                ----------------------------------------------------------
+                &lt;p&gt;Passos para fazer um bolo:&lt;/p&gt;
+                &lt;ol&gt;
+                    &lt;li&gt;Preaqueça o forno a 180°C.&lt;/li&gt;
+                    &lt;li&gt;Misture os ingredientes secos em uma tigela.&lt;/li&gt;
+                    &lt;li&gt;Adicione os ovos e o leite à mistura.&lt;/li&gt;
+                    &lt;li&gt;Bata até obter uma massa homogênea.&lt;/li&gt;
+                    &lt;li&gt;Asse por 40 minutos.&lt;/li&gt;
+                &lt;/ol&gt;
+                ----------------------------------------------------------
+            </pre>
+        </section>
+        <section>
+            <h2 id="ul">Tag de Lista Não Ordenada &lt;ul&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;ul&gt; é usada para criar listas não ordenadas, onde os itens são exibidos com marcadores (pontos, círculos ou quadrados) em vez de números. 
+                <br>Cada item da lista é definido com a tag &lt;il&gt;. Esse tipo de lista é útil quando a ordem dos itens não é importante, como em listas de compras, características 
+                <br>de um produto ou tópicos de um conteúdo.
+            <pre>
+                <h3>Itens necessários para uma viagem:</h3>
+            <ul>
+                <li>Passaporte</li>
+                <li>Roupas confortáveis</li>
+                <li>Carregador de celular</li>
+                <li>Protetor solar</li>
+            </ul>
+
+                ----------------------------------------------------------
+                &lt;p&gt;Itens necessários para uma viagem:&lt;/p&gt;
+                &lt;ol&gt;
+                    &lt;li&gt;Passaporte&lt;/li&gt;
+                    &lt;li&gt;Roupas confortáveis&lt;/li&gt;
+                    &lt;li&gt;Carregador de celular&lt;/li&gt;
+                    &lt;li&gt;Protetor solar&lt;/li&gt;
+                &lt;/ol&gt;
+                ----------------------------------------------------------
+            </pre>
+        </section>
+        <section>
+            <h2 id="li">Tag de Item de Lista &lt;li&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;li&gt; (List Item) é usada para definir os itens dentro de listas ordenadas (&lt;ol&gt;) e não ordenadas (&lt;ul&gt;). Cada &lt;li&gt; representa um item dentro da estrutura 
+                <br>da lista, sendo exibido com um número (em &lt;ol&gt;)  ou um marcador (em &lt;ul&gt;), como mostrado no exemplos anteriores.
+        </section>
+        <section>
+            <h2 id="a">Tag de Link (Âncora) &lt;a&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;a&gt; é usada para criar hiperlinks, permitindo que os usuários naveguem entre páginas da web, documentos, seções dentro da mesma 
+                <br>página ou até mesmo façam o download de arquivos. O atributo principal da tag &lt;a&gt; é href, que define o destino do link. Ele pode apontar para:
+            <pre>
+                <p>Visite o <a href="https://www.google.com" target="_blank">Google</a> para fazer suas pesquisas.</p>
+                -----------------------------------------------------------------------------------------------------
+                &lt;p&gt;Visite o &lt;a href="https://www.google.com" target="_blank"&gt;Google&lt;a&gt; para fazer suas pesquisas.&lt;p&gt;
+                -----------------------------------------------------------------------------------------------------
+
+            </pre>
+        </section>
+        <section>
+            <h2 id="hr">Tag de Texto Pequeno &lt;hr&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;hr&gt; é usada para criar uma linha horizontal na página, funcionando como um separador de conteúdo. Ela pode ser usada para indicar uma mudança 
+                <br>de seção, separar tópicos ou simplesmente melhorar a organização visual de um documento HTML.
+            <pre>
+                <p>Primeiro texto</p>
+                <hr>
+                <p>Segundo texto</p>
+--------------
+                <p>Primeiro texto</p>
+                &lt;hr&gt;
+                <p>Segundo texto</p>
+--------------
+
+            </pre>
+        </section>
+        <section>
+            <h2 id="sub">Tag de Texto Subscrito &lt;sub&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;sub&gt;> é usada para reduzir o tamanho do texto em relação ao restante do conteúdo da página. Tradicionalmente, essa tag era utilizada para notas de rodapé, avisos legais e outras informações secundárias.</p>
+            <pre>
+                <p><small>Este texto está menor</small></p>
+                -------------------------------------------
+                &lt;p&gt;&lt;small&gt;Este texto está menor&lt;/small&gt;&lt;/p&gt;
+                -------------------------------------------
+            </pre>
+        </section>
+        <section>
+            <h2 id="sup">Tag de Texto Pequeno &lt;sup&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;sup&gt; é usada para exibir texto subscrito, ou seja, ligeiramente abaixo da linha normal do texto.</p>
+            <pre>
+                <p>A fórmula química da água é H<sub>2</sub>O.</p>
+                -----------------------------------------------
+                &lt;p&gt;A fórmula química da água é H&lt;sub&gt;2&lt;/sub&gt;&lt;/p&gt;
+                -----------------------------------------------
+            </pre>
+        </section>
+        <section>
+            <h2 id="blockquote">Tag Citação em Bloco &lt;blockquote&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;blockquote&gt; é usada para definir citações em bloco, geralmente empregada para destacar
+                trechos de texto citados de outras fontes. <br>Os navegadores costumam aplicar um recuo ao conteúdo dentro
+                dessa tag, indicando visualmente que se trata de uma citação.</p>
+            <pre>
+            <blockquote>
+    "No meio da confusão, encontre a simplicidade. A partir da discórdia, encontre a harmonia. <br>     No meio da dificuldade reside a oportunidade." – WHEELER, John Archibald
+            </blockquote>
+        --------------------------------------------------------------------------------------------------------    
+        &lt;blockquote&gt;"No meio da confusão, encontre a simplicidade. A partir da discórdia, encontre a harmonia. <br>           No meio da dificuldade reside a oportunidade." – WHEELER, John Archibald&lt;/blockquote&gt;
+        --------------------------------------------------------------------------------------------------------
+            </pre>
+        </section>
+        <section>
+            <h2 id="font">Tag de Estilização de Texto (Obsoleta) &lt;font&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;font&gt; era usada para modificar o estilo do texto, permitindo alterar a cor, tamanho e tipo de fonte diretamente no HTML. 
+                <br>No entanto, essa tag foi descontinuada no HTML5, pois a estilização do texto agora deve ser feita com CSS.</p>
+            <pre>
+                <p><font color="red" size="3" face="Arial">Este texto está em vermelho, tamanho 5 e fonte Arial.</font></p>
+
+                &lt;p&gt;&lt;font color="red" size="5" face="Arial"&gt;Este texto está em vermelho, tamanho 5 e fonte Arial.&lt;/font&gt;&lt;/p&gt;
+            </pre>
+        </section>
+        <section>
+            <h2 id="del">Tag de Texto Deletado (Riscado) &lt;del&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;del&gt; é usada para indicar que um trecho de texto foi removido ou modificado em um documento. O conteúdo dentro dessa 
+                <br>tag geralmente aparece riscado, indicando que foi eliminado.</p>
+            <pre>
+                <p>O preço original era <del>R$ 100,00</del>, agora está por apenas R$ 80,00!</p>
+
+                &lt;p&gt; preço original era &lt;del&gt;R$ 100,00&lt;/del&gt;, agora está por apenas R$ 80,00!&lt;/p&gt;
+            </pre>
+        </section>
+        <section>
+            <h2 id="abbr">Tag de Abreviação &lt;abbr&gt;</h2>
+            <small><a href="#home">(Voltar ao início)</a></small>
+            <p>A tag &lt;abbr&gt; é usada para definir abreviações e siglas, ajudando a fornecer uma explicação sobre o significado de uma palavra ou termo. 
+                <br>Quando o usuário passa o mouse sobre o texto, o significado aparece em forma de tooltip (dica de ferramenta).</p>
+            <pre>
+                <p>O <abbr title="HyperText Markup Language">HTML</abbr> é a linguagem usada para estruturar páginas da web.</p>
+                &lt;p&gt; O &lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt; é a linguagem usada para estruturar páginas da web.&lt;/p&gt;
+            </pre>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <hr>
+        <br>
+        <p>Desenvolvido por Kaun Berti como exemplo de blog HTML</p>
+        <br>
+    </footer>
+</body>
+
+</html>
