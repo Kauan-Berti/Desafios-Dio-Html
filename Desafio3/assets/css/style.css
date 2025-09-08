@@ -1,0 +1,306 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.content {
+    display: grid;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: 1fr minmax(0, 960px) 1fr;
+    gap: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: start;
+    /* para evitar esticar todos */
+}
+
+
+.anchors {
+    border-left: solid 1px #cdcdcd;
+}
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+.anchors h2,
+ul {
+    padding-left: 15px;
+}
+
+.sidebar h2,
+ul {
+    padding-left: 15px;
+
+}
+
+p {
+    text-indent: 40px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    text-indent: 40px;
+}
+
+.table-custom {
+    width: 90%;
+    /* Ajusta a largura da tabela */
+    border-collapse: collapse;
+    /* Remove espaçamento entre bordas */
+}
+
+.table-custom thead {
+    background-color: rgb(204, 204, 204);
+    /* Cor de fundo do cabeçalho */
+}
+
+.table-custom th,
+.table-custom td {
+    border: 1px solid #000000;
+    /* Adiciona bordas */
+    padding: 10px;
+}
+
+.table-custom th {
+    text-align: center;
+}
+
+.table-custom td {
+    text-align: left;
+}
+
+.table-custom tbody,
+tr:nth-child(even) td {
+    background-color: rgba(243, 243, 243, 0.801);
+
+}
+
+.table-custom tbody tr:hover td {
+    background-color: rgb(223, 223, 223);
+    cursor: pointer;
+}
+
+.table-custom th {
+    width: 25%;
+}
+
+.table-custom tbody td {
+    width: auto;
+}
+
+iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.video-section {
+    max-width: 560px;
+    display: none;
+    margin: 10px auto;
+    padding: 10px;
+   
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+.logoSerie {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#img1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.sidebar,
+.anchors {
+    position: sticky;
+    top: 1rem;
+    align-self: start;
+    height: 100vh;
+}
+
+.sidebar ul li {
+    margin-bottom: 2px; /* Adiciona 10px de espaçamento abaixo de cada item */
+}
+
+.sidebar ul li a {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.anchors ul li {
+    margin-bottom: 2px; /* Adiciona 10px de espaçamento abaixo de cada item */
+}
+
+.anchors ul li a {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+
+.bar {
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+    }
+
+.tema {
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.dark-mode {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+/* --- TABELA CUSTOMIZADA NO MODO ESCURO --- */
+.dark-mode .table-custom thead {
+    background-color: #9e9d9d;
+    color: #f2eded;
+}
+
+.dark-mode .table-custom th,
+.dark-mode .table-custom td {
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.dark-mode .table-custom tbody tr:nth-child(even) td {
+    background-color: #eeeeee;
+}
+
+.dark-mode .table-custom tbody tr:hover td {
+    background-color: #f9eeee;
+    cursor: pointer;
+}
+.dark-mode a {
+    color: #ffffff;
+}
+.light-mode a {
+    color: #000000;
+}
+
+.light-mode ul li a:hover{
+    margin-left: 10px;
+    border-bottom: solid 3.5px rgba(189, 189, 189, 0.647);
+    transition: all 0.25s ease-in-out;
+}
+.dark-mode ul li a:hover{
+    margin-left: 10px;
+    border-bottom: solid 3.5px rgba(163, 224, 255, 0.647);
+    transition: all 0.25s ease-in-out;
+}
+
+
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    text-align: left;
+    padding: 2px;
+    font-size: 14px;
+}
+
+#buscar{
+    display: grid;
+    place-items:  center;
+}
+/*
+.logopage {
+    text-align:left;
+    padding-left: 20px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;  Alinha verticalmente a imagem e o texto 
+    gap: 10px;  Espaço entre a imagem e o texto 
+}*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.logopage {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.buscador {
+    display: flex;
+    padding-right: 300px;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto; /* faz a buscador ficar no centro */
+}
+
+.light-mode #buscar {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.light-mode #buscar::placeholder {
+    color: #686868; /* cor do texto do placeholder */
+}
+.dark-mode #buscar {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.dark-mode #buscar::placeholder {
+    color: #b9b9b9; /* cor do texto do placeholder */
+}
